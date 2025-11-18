@@ -1,18 +1,18 @@
 Note:  This is a markdown file which supports visual differences in content.  You can learn more at https://www.markdownguide.org/basic-syntax/#overview.
 
 
-#Instructions
+# Instructions
 
 Insert the code snippets when prompted. 
 
 
-##Step 1: Insert Python code to prepare Colab to work with SQL. 
+## Step 1: Insert Python code to prepare Colab to work with SQL. 
 <code>!pip install pandasql
 import pandas as pd
 from pandasql import sqldf</code>
 
 
-##Step 2: Create a Pandas Dataframe
+## Step 2: Create a Pandas Dataframe
 This will be the "table" you query
 <code>
 data = {'id': [1, 2, 3], 
@@ -25,7 +25,7 @@ print(df_products)
 
 
 
-##Step 3: Run SQL queries on the DataFrame
+## Step 3: Run SQL queries on the DataFrame
 <code>
 # SQL query to select products priced over 100
 query = """
